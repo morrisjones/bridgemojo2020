@@ -1,0 +1,9 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+
+fonts:
+  css:
+    theme:
+      '//fonts.googleapis.com/css?family=Lato:r,b,bi,i,thin,thinitalic,black,blackitalic|Yanone+Kaffeesatz:700&amp;subset=latin': { type: external, minified: true }
