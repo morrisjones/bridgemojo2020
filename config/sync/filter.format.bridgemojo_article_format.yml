@@ -1,0 +1,59 @@
+uuid: efe6a9bb-074e-4e47-951d-118cf57d80f3
+langcode: en
+status: true
+dependencies:
+  module:
+    - inline_responsive_images
+name: 'BridgeMojo Article Format'
+format: bridgemojo_article_format
+weight: 0
+filters:
+  filter_caption:
+    id: filter_caption
+    provider: filter
+    status: true
+    weight: 0
+    settings: {  }
+  filter_url:
+    id: filter_url
+    provider: filter
+    status: true
+    weight: 0
+    settings:
+      filter_url_length: 72
+  filter_align:
+    id: filter_align
+    provider: filter
+    status: true
+    weight: 0
+    settings: {  }
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: false
+    weight: -10
+    settings:
+      allowed_html: '<a href hreflang> <em> <strong> <cite> <blockquote cite> <code> <ul type> <ol start type> <li> <dl> <dt> <dd> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <img src alt data-entity-type data-entity-uuid data-align data-caption data-responsive-image-style data-image-style>'
+      filter_html_help: true
+      filter_html_nofollow: false
+  filter_responsive_image_style:
+    id: filter_responsive_image_style
+    provider: inline_responsive_images
+    status: true
+    weight: 0
+    settings:
+      responsive_style_narrow: '1'
+      responsive_style_wide: '1'
+  filter_imagestyle:
+    id: filter_imagestyle
+    provider: inline_responsive_images
+    status: false
+    weight: 0
+    settings:
+      image_style_large: '1'
+      image_style_max_1300x1300: '1'
+      image_style_max_2600x2600: '1'
+      image_style_max_325x325: '1'
+      image_style_max_650x650: '1'
+      image_style_medium: '1'
+      image_style_thumbnail: '1'

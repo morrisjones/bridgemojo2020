@@ -1,0 +1,25 @@
+uuid: 107a60e6-9c08-497b-9a20-0f812718dc4a
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.bridge-organizations
+  module:
+    - system
+  theme:
+    - bridgemojo
+id: bridgeorganizations
+theme: bridgemojo
+region: sidebar_first
+weight: -6
+provider: null
+plugin: 'system_menu_block:bridge-organizations'
+settings:
+  id: 'system_menu_block:bridge-organizations'
+  label: 'Bridge Organizations'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

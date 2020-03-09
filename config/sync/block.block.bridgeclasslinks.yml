@@ -1,0 +1,30 @@
+uuid: e7f76ca6-245b-4591-bf62-8ae43231eb9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.bridge-class-links
+  module:
+    - system
+  theme:
+    - bridgemojo
+id: bridgeclasslinks
+theme: bridgemojo
+region: sidebar_first
+weight: -8
+provider: null
+plugin: 'system_menu_block:bridge-class-links'
+settings:
+  id: 'system_menu_block:bridge-class-links'
+  label: 'Bridge Class Links'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    pages: '/class*'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,31 @@
+uuid: e6dae8de-c6be-4454-aa3a-56c6be99add8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3162299e-973c-411d-bfcd-64c771254639'
+  module:
+    - block_content
+    - system
+  theme:
+    - bridgemojo
+id: featurearticleheader
+theme: bridgemojo
+region: highlighted
+weight: 0
+provider: null
+plugin: 'block_content:3162299e-973c-411d-bfcd-64c771254639'
+settings:
+  id: 'block_content:3162299e-973c-411d-bfcd-64c771254639'
+  label: 'Feature Articles'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /features
+    negate: false
+    context_mapping: {  }

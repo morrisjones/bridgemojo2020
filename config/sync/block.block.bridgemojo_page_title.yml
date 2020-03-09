@@ -1,0 +1,20 @@
+uuid: 63a9bfd9-711e-4b31-a7dc-d722b0d6a5c5
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bridgemojo
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: bridgemojo_page_title
+theme: bridgemojo
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 881169fe-fa36-4ce5-8436-e371374fc0f9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bridgemojo
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: bridgemojo_content
+theme: bridgemojo
+region: content
+weight: -3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

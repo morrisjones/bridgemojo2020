@@ -1,0 +1,31 @@
+uuid: 4d852e68-93b5-473c-8674-7d468eb570c7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:076a3882-649f-40de-9835-63cf8c1d6246'
+  module:
+    - block_content
+    - system
+  theme:
+    - bridgemojo
+id: welcome
+theme: bridgemojo
+region: subhead_left
+weight: 0
+provider: null
+plugin: 'block_content:076a3882-649f-40de-9835-63cf8c1d6246'
+settings:
+  id: 'block_content:076a3882-649f-40de-9835-63cf8c1d6246'
+  label: Welcome
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

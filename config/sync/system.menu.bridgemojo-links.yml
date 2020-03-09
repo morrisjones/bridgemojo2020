@@ -1,0 +1,8 @@
+uuid: 8a34e751-6d28-45eb-aa8e-da5213d7bc2c
+langcode: en
+status: true
+dependencies: {  }
+id: bridgemojo-links
+label: 'BridgeMojo Links'
+description: ''
+locked: false

@@ -1,0 +1,20 @@
+uuid: 0a18d39c-ec2d-47a8-b809-f9161232e6f4
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bridgemojo
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: bridgemojo_local_actions
+theme: bridgemojo
+region: content
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

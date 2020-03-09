@@ -1,0 +1,8 @@
+uuid: a6c59678-65b3-4418-a831-b2d1564c48a5
+langcode: en
+status: true
+dependencies: {  }
+id: bridge-game-links
+label: 'Bridge Game Links'
+description: ''
+locked: false

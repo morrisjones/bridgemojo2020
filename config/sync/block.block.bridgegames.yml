@@ -1,0 +1,31 @@
+uuid: 22bc4633-5aa4-4590-a5d3-21bfe72d3a01
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f7c21cc5-2c52-443d-87d5-60427f327ec0'
+  module:
+    - block_content
+    - system
+  theme:
+    - bridgemojo
+id: bridgegames
+theme: bridgemojo
+region: subhead_center
+weight: 0
+provider: null
+plugin: 'block_content:f7c21cc5-2c52-443d-87d5-60427f327ec0'
+settings:
+  id: 'block_content:f7c21cc5-2c52-443d-87d5-60427f327ec0'
+  label: 'Bridge Games'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,31 @@
+uuid: 6aa7edf7-3f49-4ae4-92f7-ee7185d33b59
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ad6bde0f-d387-45bc-8eb8-adc28d591310'
+  module:
+    - block_content
+    - system
+  theme:
+    - bridgemojo
+id: classhomeblock
+theme: bridgemojo
+region: content
+weight: -4
+provider: null
+plugin: 'block_content:ad6bde0f-d387-45bc-8eb8-adc28d591310'
+settings:
+  id: 'block_content:ad6bde0f-d387-45bc-8eb8-adc28d591310'
+  label: 'Class Home Block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /class
+    negate: false
+    context_mapping: {  }

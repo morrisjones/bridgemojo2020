@@ -1,0 +1,8 @@
+uuid: 7b7a687b-8a94-41db-9b92-528c15875c3f
+langcode: en
+status: true
+dependencies: {  }
+id: bridge-class-links
+label: 'Bridge Class Links'
+description: ''
+locked: false

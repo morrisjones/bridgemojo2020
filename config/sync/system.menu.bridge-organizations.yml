@@ -1,0 +1,8 @@
+uuid: d272a9ad-64d2-4763-949b-7d122ed68ac0
+langcode: en
+status: true
+dependencies: {  }
+id: bridge-organizations
+label: 'Bridge Organizations'
+description: ''
+locked: false

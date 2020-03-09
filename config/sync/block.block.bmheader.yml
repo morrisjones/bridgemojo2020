@@ -1,0 +1,25 @@
+uuid: 9ed02195-8ec4-4b6a-aede-f300cfbfab71
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:61601f9e-7802-482f-bd2a-7c822d5432c2'
+  module:
+    - block_content
+  theme:
+    - bridgemojo
+id: bmheader
+theme: bridgemojo
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:61601f9e-7802-482f-bd2a-7c822d5432c2'
+settings:
+  id: 'block_content:61601f9e-7802-482f-bd2a-7c822d5432c2'
+  label: 'BM Header'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

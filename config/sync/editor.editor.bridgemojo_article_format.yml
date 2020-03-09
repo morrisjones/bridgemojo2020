@@ -1,0 +1,51 @@
+uuid: 21394059-4ab1-46c1-bd1f-2c01a943c2fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.bridgemojo_article_format
+  module:
+    - ckeditor
+format: bridgemojo_article_format
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formatting
+          items:
+            - Bold
+            - Italic
+        -
+          name: Links
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Lists
+          items:
+            - BulletedList
+            - NumberedList
+        -
+          name: Media
+          items:
+            - Blockquote
+            - DrupalImage
+        -
+          name: Tools
+          items:
+            - Source
+  plugins:
+    stylescombo:
+      styles: ''
+    language:
+      language_list: un
+image_upload:
+  status: true
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: 1024
+    height: 1024

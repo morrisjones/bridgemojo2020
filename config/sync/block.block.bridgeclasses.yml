@@ -1,0 +1,31 @@
+uuid: 02e601ec-7554-42e9-8019-341fa18c6eff
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3de56e2a-5b3a-4d61-ad04-c07a9dcf47d4'
+  module:
+    - block_content
+    - system
+  theme:
+    - bridgemojo
+id: bridgeclasses
+theme: bridgemojo
+region: subhead_right
+weight: 0
+provider: null
+plugin: 'block_content:3de56e2a-5b3a-4d61-ad04-c07a9dcf47d4'
+settings:
+  id: 'block_content:3de56e2a-5b3a-4d61-ad04-c07a9dcf47d4'
+  label: 'Bridge Classes'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

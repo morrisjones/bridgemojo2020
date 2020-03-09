@@ -1,0 +1,31 @@
+uuid: fd5c2e8a-39d4-41fc-9eab-4374f0c7aace
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1f672f4e-f708-4c80-8f34-f888f24888b3'
+  module:
+    - block_content
+    - system
+  theme:
+    - bridgemojo
+id: gamehomeblock
+theme: bridgemojo
+region: content
+weight: -5
+provider: null
+plugin: 'block_content:1f672f4e-f708-4c80-8f34-f888f24888b3'
+settings:
+  id: 'block_content:1f672f4e-f708-4c80-8f34-f888f24888b3'
+  label: 'Game Home Block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /game
+    negate: false
+    context_mapping: {  }

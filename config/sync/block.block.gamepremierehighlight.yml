@@ -1,0 +1,31 @@
+uuid: 5122f74d-774b-4f58-ab6f-4153d7b46cae
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3170b620-8938-45d1-92b8-fc11a79304ba'
+  module:
+    - block_content
+    - system
+  theme:
+    - bridgemojo
+id: gamepremierehighlight
+theme: bridgemojo
+region: highlighted
+weight: 0
+provider: null
+plugin: 'block_content:3170b620-8938-45d1-92b8-fc11a79304ba'
+settings:
+  id: 'block_content:3170b620-8938-45d1-92b8-fc11a79304ba'
+  label: 'Game premiere highlight'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

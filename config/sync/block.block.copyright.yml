@@ -1,0 +1,25 @@
+uuid: 54d7a4e4-5873-4b83-abad-37f3cbe35175
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e70ccf74-37b7-4678-adb6-4107675cd650'
+  module:
+    - block_content
+  theme:
+    - bridgemojo
+id: copyright
+theme: bridgemojo
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:e70ccf74-37b7-4678-adb6-4107675cd650'
+settings:
+  id: 'block_content:e70ccf74-37b7-4678-adb6-4107675cd650'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

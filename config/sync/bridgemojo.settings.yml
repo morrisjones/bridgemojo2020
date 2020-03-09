@@ -1,0 +1,32 @@
+schemas:
+  bootstrap: 8000
+  bridgemojo: 8000
+favicon:
+  mimetype: image/png
+  path: 'public://bridgemojo-a-64x64_0.png'
+  url: 'https://bridgemojo.com/themes/bridgemojo/favicon.ico'
+  use_default: false
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: ''
+  url: ''
+  use_default: true
+region_wells:
+  header: ''
+  navigation: ''
+  navigation_collapsible: ''
+  subhead_left: ''
+  subhead_center: ''
+  subhead_right: ''
+  highlighted: ''
+  help: ''
+  content: ''
+  sidebar_first: ''
+  sidebar_second: well
+  footer: ''
+table_responsive: '-1'
+table: ''

@@ -1,0 +1,25 @@
+uuid: a486279d-5053-4060-aec9-266136cde97e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.bridgemojo-links
+  module:
+    - system
+  theme:
+    - bridgemojo
+id: bridgemojolinks
+theme: bridgemojo
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'system_menu_block:bridgemojo-links'
+settings:
+  id: 'system_menu_block:bridgemojo-links'
+  label: 'BridgeMojo Links'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
