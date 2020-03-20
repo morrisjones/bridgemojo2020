@@ -4,7 +4,7 @@ smtp_hostbackup: ''
 smtp_port: '587'
 smtp_protocol: tls
 smtp_username: bridgemojo@whiteoaks.com
-smtp_password: ﻿﻿0c2YqNVRiy02laO5x2WS
+smtp_password: dummy
 smtp_from: admin@bridgemojo.com
 smtp_fromname: 'BridgeMojo Admin'
 smtp_client_hostname: ''
