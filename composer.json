@@ -19,7 +19,7 @@
         "drupal/bootstrap": "^3.13",
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-project-message": "^8.8",
-        "drupal/core-recommended": "^8.9.1",
+        "drupal/core-recommended": "^8.9.6",
         "drupal/inline_responsive_images": "^2.1",
         "drupal/picture": "^1.0",
         "drupal/recaptcha": "^2.3",
