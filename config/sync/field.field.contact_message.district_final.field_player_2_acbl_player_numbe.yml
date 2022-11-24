@@ -1,0 +1,19 @@
+uuid: 663e0ba4-a71d-4590-b0ac-e7658c583980
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.district_final
+    - field.storage.contact_message.field_player_2_acbl_player_numbe
+id: contact_message.district_final.field_player_2_acbl_player_numbe
+field_name: field_player_2_acbl_player_numbe
+entity_type: contact_message
+bundle: district_final
+label: 'Player 2 ACBL Player Number'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

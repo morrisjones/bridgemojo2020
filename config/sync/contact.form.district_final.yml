@@ -1,0 +1,12 @@
+uuid: 14b305fc-8993-4085-8d83-9426958a4078
+langcode: en
+status: true
+dependencies: {  }
+id: district_final
+label: 'NAP District Final Reservation'
+recipients:
+  - admin@bridgemojo.com
+reply: ''
+weight: 0
+message: 'Thank you for requesting a reservation! If you had any difficulty with this form, please email nap@bridgemojo.com, or call Mojo at (626) 755-5415.'
+redirect: /

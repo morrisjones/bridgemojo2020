@@ -1,0 +1,21 @@
+uuid: d1a0cae3-59b7-4fa3-816a-81edaf75faf5
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+id: contact_message.field_player_2_acbl_player_numbe
+field_name: field_player_2_acbl_player_numbe
+entity_type: contact_message
+type: string
+settings:
+  max_length: 8
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

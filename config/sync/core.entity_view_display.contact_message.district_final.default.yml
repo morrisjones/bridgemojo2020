@@ -1,0 +1,75 @@
+uuid: 9a6598ca-c53b-4dae-a330-98e4c8684d0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.district_final
+    - field.field.contact_message.district_final.field_comments
+    - field.field.contact_message.district_final.field_player_1
+    - field.field.contact_message.district_final.field_player_1_acbl_player_numbe
+    - field.field.contact_message.district_final.field_player_1_email_address
+    - field.field.contact_message.district_final.field_player_2
+    - field.field.contact_message.district_final.field_player_2_acbl_player_numbe
+    - field.field.contact_message.district_final.field_player_2_email_address
+  module:
+    - text
+id: contact_message.district_final.default
+targetEntityType: contact_message
+bundle: district_final
+mode: default
+content:
+  field_comments:
+    weight: 6
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_player_1:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_player_1_acbl_player_numbe:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_player_1_email_address:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_player_2:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_player_2_acbl_player_numbe:
+    weight: 4
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_player_2_email_address:
+    weight: 5
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+hidden:
+  message: true

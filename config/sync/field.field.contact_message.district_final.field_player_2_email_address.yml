@@ -1,0 +1,19 @@
+uuid: 1e91c00c-cfc3-43bb-ac26-c6a186fc665c
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.district_final
+    - field.storage.contact_message.field_player_2_email_address
+id: contact_message.district_final.field_player_2_email_address
+field_name: field_player_2_email_address
+entity_type: contact_message
+bundle: district_final
+label: 'Player 2 Email Address'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

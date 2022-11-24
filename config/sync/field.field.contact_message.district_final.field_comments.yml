@@ -1,0 +1,21 @@
+uuid: 4e6dd6fe-1f8a-46f7-adda-5c30b19ee2fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.district_final
+    - field.storage.contact_message.field_comments
+  module:
+    - text
+id: contact_message.district_final.field_comments
+field_name: field_comments
+entity_type: contact_message
+bundle: district_final
+label: Comments
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

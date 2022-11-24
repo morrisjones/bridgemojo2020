@@ -1,7 +1,0 @@
-uuid: fbbc0412-4146-4bfe-944c-2f729136669b
-langcode: en
-status: true
-dependencies: {  }
-formId: feedback
-captchaType: recaptcha/reCAPTCHA
-label: feedback

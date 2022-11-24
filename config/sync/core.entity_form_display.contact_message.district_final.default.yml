@@ -1,0 +1,99 @@
+uuid: 926e1af1-c4c5-41e8-bf19-515661914c11
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.district_final
+    - field.field.contact_message.district_final.field_comments
+    - field.field.contact_message.district_final.field_player_1
+    - field.field.contact_message.district_final.field_player_1_acbl_player_numbe
+    - field.field.contact_message.district_final.field_player_1_email_address
+    - field.field.contact_message.district_final.field_player_2
+    - field.field.contact_message.district_final.field_player_2_acbl_player_numbe
+    - field.field.contact_message.district_final.field_player_2_email_address
+  module:
+    - text
+id: contact_message.district_final.default
+targetEntityType: contact_message
+bundle: district_final
+mode: default
+content:
+  copy:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_comments:
+    weight: 10
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_player_1:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_player_1_acbl_player_numbe:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_player_1_email_address:
+    weight: 6
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_player_2:
+    weight: 7
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_player_2_acbl_player_numbe:
+    weight: 8
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_player_2_email_address:
+    weight: 9
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  mail:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  name:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  preview:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  message: true
+  subject: true
